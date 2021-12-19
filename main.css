@@ -1,11 +1,11 @@
 /* set variables on the root scope so that they can be used everywhere */
-:root {
+ /* :root { */
     /* github dark theme background-color */ 
-    --primary-background-color: #161b22;
+    /* --primary-background-color: #161b22; */
     /* github text-color */ 
-    --color: #f0f6fc;
-    --secondary-background-color: #010409;
-} 
+    /* --color: #f0f6fc; */
+    /* --secondary-background-color: #010409; */ 
+/*} */
 
 /* reset point */ 
 * {
@@ -29,16 +29,16 @@ img {
 }
 
 body {
-    color: var(--color);
-    background-color: var(--primary-background-color);
+    /* color: var(--color);
+    background-color: var(--primary-background-color); */
     font-family: 'Open Sans', sans-serif;
     line-height: 1.4;
     margin-left: 5%;
     margin-right: 5%;
-    background-image: url(assets/IMG_20210914_231432_090.jpg);
+    /* background-image: url(assets/IMG_20210919_181227-04.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .welcome-message {
