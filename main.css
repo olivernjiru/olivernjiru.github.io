@@ -15,7 +15,7 @@
 }
 
 ul {
-    list-style: none;
+    /* list-style: none; */
 }
 
 p {
@@ -69,7 +69,7 @@ body {
     display: flex;
     margin-top: 100px; 
     justify-content: space-between;
-    margin-bottom: 230px;
+    margin-bottom: 100px;
 }
 
 .intro-center {
@@ -104,6 +104,34 @@ body {
     border: 2px solid;
     border-color: rgba(143, 34, 7, 0.685);
 
+}
+
+.container-2 {
+    /*background-color: #000; */
+    /*color: #fff;*/
+    max-width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.my-work h1 {
+    letter-spacing: 10px;
+    padding-top: 60px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.my-work p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.my-work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .welcome-message {
