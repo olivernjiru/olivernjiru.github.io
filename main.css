@@ -184,7 +184,34 @@ body {
     margin-left: 50px;
 }
 
-.welcome-message {
-    margin-top: 50px; 
-    background-color: var(--secondary-background-color)
+@media(max-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        margin: 0px 50px 0 50px;
+    }
+
+    .nav-container{
+        display: block;
+    }
+    
+    .home-page {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .projects {
+        display: none;
+    }
+
+    .gear {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
 }
