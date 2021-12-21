@@ -33,7 +33,7 @@ img {
     padding: 40px;
     display: flex;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     justify-content: space-between;
     align-items: center;
     max-width: 1366px;
@@ -107,8 +107,6 @@ body {
 }
 
 .container-2 {
-    /*background-color: #000; */
-    /*color: #fff;*/
     max-width: 1366px;
     margin: 0 auto;
     justify-content: space-between;
@@ -123,15 +121,67 @@ body {
 
 .my-work p {
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .my-work-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 15rem;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.software-development ul {
+    padding-left: 20px;
+}
+
+.photo-editing ul {
+    padding-left: 20px;
+}
+
+.community ul {
+    padding-left: 20px;
+}
+
+.community ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.community ul li a:hover {
+    text-decoration: none;
+    color: rgb(85, 4, 122);
+}
+
+.container-3 {
+    height: auto; 
+    max-width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h3 {
+    display: flex; 
+    align-items: center; 
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.footer-social-links {
+    display: flex; 
+    margin-left: 340px;
+    margin-bottom: 100px;
+}
+
+.footer-social-links a {
+    height: 30px; 
+    width: 30px;
+    margin-left: 50px;
 }
 
 .welcome-message {
