@@ -29,26 +29,28 @@ img {
 }
 
 .nav-container {
-    height: auto;
     padding: 40px;
     display: flex;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
-    /*margin-bottom: 30px;*/
     justify-content: space-between;
-    align-items: center;
     max-width: 1366px;
-    margin: 0 auto;
 }
 
 .nav-left a {
-    margin-left: 40px;
+    margin-right: 40px;
     text-decoration: none;
     color: #000;
+    padding: 10px 5px 10px 5px;
+}
+
+.nav-left a:first-child {
+    margin-left: 40px;
 }
 
 .nav-right a {
     text-decoration: none;
     color: #000;
+    padding: 10px 5px 10px 5px;
 }
 
 body {
@@ -65,75 +67,68 @@ body {
 }
 
 .container-1 {
-    align-items: center;
+    margin-top: 80px; 
     display: flex;
-    margin-top: 100px; 
-    justify-content: space-between;
-    margin-bottom: 100px;
+    height: 64vh;
 }
 
 .intro-center {
-    align-items: center;
-    text-align: center;
     margin-right: 50px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .intro-center h1 {
-    letter-spacing: 30px;
+    letter-spacing: 20px;
     text-transform: uppercase;
 }
 
 .main-page-socials-left {
     display:inline;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .main-page-socials-left a img {
-    height: 30px;
-    width: 90px;
+    height: 28px;
+    width: 80px;
     text-decoration: none;
     display: block;
     margin-bottom: 20px;
 }
 
 .my-face-right img {
-    margin:0;
-    padding:0;
     border-radius: 20px;
-    border: 2px solid;
-    border-color: rgba(143, 34, 7, 0.685);
-
+    border: 2px solid rgba(143, 34, 7, 0.685);
+    height: fit-content;
+    width: fit-content;
 }
 
 .container-2 {
     max-width: 1366px;
     margin: 0 auto;
-    justify-content: space-between;
 }
 
 .my-work h1 {
     letter-spacing: 10px;
-    padding-top: 60px;
     text-transform: uppercase;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 
 .my-work p {
     text-align: justify;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .my-work-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15rem;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 150px;
+    gap: 5rem;
+    /* to center everything in the grid */ 
+    place-content: center;
+    margin-bottom: 100px;
 }
 
 .software-development ul {
+    /* to make the list appear inside the heading */ 
     padding-left: 20px;
 }
 
@@ -156,32 +151,25 @@ body {
 }
 
 .container-3 {
-    height: auto; 
     max-width: 1366px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .footer h3 {
-    display: flex; 
-    align-items: center; 
-    text-align: center;
-    margin-left: 450px;
     margin-bottom: 40px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .footer-social-links {
-    display: flex; 
-    margin-left: 340px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .footer-social-links a {
     height: 30px; 
     width: 30px;
-    margin-left: 50px;
+    display: inline-flex; 
+    margin-right: 20px;
 }
 
 @media(max-width: 768px) {
