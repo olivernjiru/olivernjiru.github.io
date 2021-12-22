@@ -169,26 +169,50 @@ body {
     height: 30px; 
     width: 30px;
     display: inline-flex; 
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
-@media(max-width: 768px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    body{
-        margin: 0px 50px 0 50px;
+@media(max-width: 375px) {
+    .container-1 {
+        max-width: 600px;
+        display: inline;
     }
 
-    .nav-container{
+    .container-2 {
+        max-width: 600px;
+    }
+
+    .container-3 {
+        max-width: 600px;
+        display: flex;
+        text-align: center;
+    }
+
+    body{
+        /* color: var(--color);
+        background-color: var(--primary-background-color); */
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.4;
+        margin-left: 0%;
+        margin-right: 0%;
+        /* background-image: url(assets/IMG_20210919_181227-04.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; */
+    }
+
+    .nav-container {
         display: block;
+    }
+
+    .nav-left a:first-child{
+        font-size: 20px;
     }
     
     .home-page {
         font-size: 30px;
-        text-align: center;
+        align-items: left;
+        text-align: left;
     }
     
     .projects {
@@ -201,5 +225,56 @@ body {
 
     .contact {
         display: none;
+    }
+
+    .container-1 {
+        margin-top: 80px; 
+        display: block;
+        height: 71vh;
+    }
+
+    .intro-center {
+        font-size: 10px;
+        display: inline;
+    }
+
+    .intro-center h1 {
+        text-align: left;
+        letter-spacing: 4px;
+    }
+
+    .intro-center p {
+        text-align: justify;
+    }
+
+    .main-page-socials-left {
+        display: none;
+    }
+
+    .my-face-right {
+        height: 280px;
+        width: 240px;
+    }
+
+    .my-work p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .my-work-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5rem;
+        /* to center everything in the grid */ 
+        place-content: center;
+        margin-bottom: 100px;
+    }
+
+    .footer-social-links a {
+        height: 30px; 
+        width: 30px;
+        display: inline-flex; 
+        margin-right: 10px;
+        margin-left: 17px;
     }
 }
