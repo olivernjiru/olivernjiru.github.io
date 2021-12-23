@@ -82,14 +82,18 @@ body {
     text-transform: uppercase;
 }
 
+.intro-center p{
+    font-size: 23px;
+}
+
 .main-page-socials-left {
     display:inline;
     margin-top: 50px;
 }
 
 .main-page-socials-left a img {
-    height: 28px;
-    width: 65px;
+    height: 35px;
+    width: 80px;
     text-decoration: none;
     display: block;
     margin-bottom: 20px;
@@ -116,6 +120,7 @@ body {
 .my-work p {
     text-align: justify;
     margin-bottom: 70px;
+    font-size: 21px;
 }
 
 .my-work-grid {
@@ -132,12 +137,24 @@ body {
     padding-left: 20px;
 }
 
+.software-development ul li{
+    font-size: 18px;
+}
+
 .photo-editing ul {
     padding-left: 20px;
 }
 
+.photo-editing ul li{
+    font-size: 18px;
+}
+
 .community ul {
     padding-left: 20px;
+}
+
+.community ul li{
+    font-size: 18px;
 }
 
 .community ul li a {
@@ -163,13 +180,14 @@ body {
 .footer-social-links {
     margin-bottom: 100px;
     text-align: center;
+    margin-left: 10px;
 }
 
 .footer-social-links a {
     height: 30px; 
     width: 30px;
     display: inline-flex; 
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 @media(max-width: 600px) {
