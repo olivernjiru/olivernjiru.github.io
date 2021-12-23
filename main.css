@@ -172,47 +172,32 @@ body {
     margin-right: 15px;
 }
 
-@media(max-width: 375px) {
-    .container-1 {
-        max-width: 600px;
-        display: inline;
+@media(max-width: 600px) {
+    * {
+        /*box-sizing: border-box; */
+        margin: 0;
+        padding: 0;
     }
-
-    .container-2 {
-        max-width: 600px;
+    
+    p {
+        margin: 5px 0;
+        line-height: 1.7;
     }
-
-    .container-3 {
-        max-width: 600px;
-        display: flex;
-        text-align: center;
-    }
-
-    body{
-        /* color: var(--color);
-        background-color: var(--primary-background-color); */
-        font-family: 'Open Sans', sans-serif;
-        line-height: 1.4;
-        margin-left: 0%;
-        margin-right: 0%;
-        /* background-image: url(assets/IMG_20210919_181227-04.jpeg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover; */
+    
+    img {
+        max-width: 100%;
+        max-height: 100%;
     }
 
     .nav-container {
-        display: block;
+        display: inline;
+        box-shadow: none;
     }
 
     .nav-left a:first-child{
         font-size: 20px;
-    }
-    
-    .home-page {
-        font-size: 30px;
-        align-items: left;
-        text-align: left;
+        margin: auto;
+        padding: auto;
     }
     
     .projects {
@@ -223,28 +208,40 @@ body {
         display: none;
     }
 
+    .my-art {
+        display: none;
+    }
+
     .contact {
         display: none;
     }
 
+    body{
+        /* color: var(--color);
+        background-color: var(--primary-background-color); */
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.4;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
     .container-1 {
-        margin-top: 80px; 
+        margin-top: 0px; 
         display: block;
-        height: 71vh;
     }
 
     .intro-center {
-        font-size: 10px;
         display: inline;
     }
 
     .intro-center h1 {
-        text-align: left;
-        letter-spacing: 4px;
+        font-size: 23px;
+        letter-spacing: 10px;
+        text-transform: uppercase;
     }
 
     .intro-center p {
-        text-align: justify;
+        font-size: 20px;
     }
 
     .main-page-socials-left {
@@ -255,26 +252,90 @@ body {
         height: 280px;
         width: 240px;
     }
-
+    
+    .my-work h1 {
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    
     .my-work p {
-        font-size: 15px;
-        text-align: left;
+        font-size: 20px;
+        margin-bottom: 40px;
     }
 
     .my-work-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 5rem;
+        gap: 2.5rem;
         /* to center everything in the grid */ 
         place-content: center;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
+    .software-development h3 {
+        font-size: 23px;
+    }
+    
+    .software-development ul {
+        /* to make the list appear inside the heading */ 
+        padding-left: 20px;
+    }
+
+    .software-development ul li{
+        font-size: 20px;
+    }
+
+    .photo-editing h3 {
+        font-size: 23px;
+    }
+    
+    .photo-editing ul {
+        padding-left: 20px;
+    }
+
+    .photo-editing ul li{
+        font-size: 20px;
+    }
+
+    .community h3 {
+        font-size: 23px;
+    }
+    
+    .community ul {
+        padding-left: 20px;
+    }
+
+    .community ul li{
+        font-size: 20px;
+    }
+    
+    .community ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .community ul li a:hover {
+        text-decoration: none;
+        color: rgb(85, 4, 122);
+    }
+    
+    .footer h3 {
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .footer-social-links {
+        margin-bottom: 100px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
     .footer-social-links a {
         height: 30px; 
         width: 30px;
         display: inline-flex; 
         margin-right: 10px;
-        margin-left: 17px;
     }
 }
