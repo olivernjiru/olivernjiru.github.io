@@ -190,6 +190,31 @@ body {
     margin-right: 10px;
 }
 
+/* project.html */
+.project-container {
+    padding: 30px;
+    box-shadow: 22px 22px 22px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    border-radius: 20px;
+}
+
+.project-container a img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 40px;
+}
+
+.project-name {
+    margin-bottom: 40px;
+}
+
+.project-description {
+    margin-bottom: 80px;
+}
+
+/* .project-container .project-technologies {
+    margin: 0px;
+} */
+
 @media(max-width: 600px) {
     * {
         /*box-sizing: border-box; */
