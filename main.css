@@ -195,14 +195,16 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    margin-bottom: 100px;
 }
+
 .project-container {
     margin-top: 50px;
     padding: 30px;
     border-radius: 20px;
-    background-color: rgba(143, 34, 7, 0.685);
+    background-color: #922724;
     box-shadow: 8px 8px 8px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
-
+    color: #fff;
 }
 
 .project-container:hover{
@@ -393,5 +395,13 @@ body {
         width: 30px;
         display: inline-flex; 
         margin-right: 10px;
+    }
+
+    /* project.html */
+    .projects-container-1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.2rem;
+        margin-bottom: 100px;
     }
 }
