@@ -191,10 +191,23 @@ body {
 }
 
 /* project.html */
+.projects-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
 .project-container {
+    margin-top: 50px;
     padding: 30px;
-    box-shadow: 22px 22px 22px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
     border-radius: 20px;
+    background-color: rgba(143, 34, 7, 0.685);
+    box-shadow: 8px 8px 8px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+
+}
+
+.project-container:hover{
+    box-shadow: 20px 20px 20px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+
 }
 
 .project-container a img{
