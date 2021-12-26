@@ -75,7 +75,7 @@ body {
 
 .intro-center {
     margin-right: 50px;
-    margin-left: 150px;
+    margin-left: 0px;
 }
 
 .intro-center h1 {
@@ -87,7 +87,7 @@ body {
     font-size: 23px;
 }
 
-.main-page-socials-left {
+/* .main-page-socials-left {
     display:inline;
     margin-top: 50px;
 }
@@ -98,7 +98,7 @@ body {
     text-decoration: none;
     display: block;
     margin-bottom: 20px;
-}
+} */ 
 
 .my-face-right img {
     border-radius: 20px;
@@ -126,7 +126,7 @@ body {
 
 .my-work-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
     /* to center everything in the grid */ 
     place-content: center;
@@ -166,6 +166,14 @@ body {
 .community ul li a:hover {
     text-decoration: none;
     color: rgb(85, 4, 122);
+}
+
+.gear ul {
+    padding-left: 20px;
+}
+
+.gear ul li{
+    font-size: 18px;
 }
 
 .container-3 {
@@ -372,6 +380,18 @@ body {
     .community ul li a:hover {
         text-decoration: none;
         color: rgb(85, 4, 122);
+    }
+
+    .gear h3 {
+        font-size: 23px;
+    }
+    
+    .gear ul {
+        padding-left: 20px;
+    }
+
+    .gear ul li{
+        font-size: 20px;
     }
     
     .footer h3 {
