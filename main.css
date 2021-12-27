@@ -9,14 +9,10 @@
 
 /* reset point */ 
 * {
-    /*box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-/* ul { */
-    /* list-style: none; */
-/* } */
 
 p {
     margin: 5px 0;
@@ -34,7 +30,7 @@ img {
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
     justify-content: space-between;
     max-width: 1366px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .nav-left a {
@@ -61,67 +57,40 @@ body {
     line-height: 1.4;
     margin-left: 5%;
     margin-right: 5%;
-    /* background-image: url(assets/IMG_20210919_181227-04.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
 }
 
 .container-1 {
-    margin-top: 80px; 
-    display: flex;
+    margin-top: 10px; 
+    display: inline;
     height: 71vh;
 }
 
-.intro-center {
-    margin-right: 50px;
-    margin-left: 0px;
+.intro {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
-.intro-center h1 {
-    letter-spacing: 20px;
+.intro-text h2 {
+    /* letter-spacing: 20px; */
     text-transform: uppercase;
 }
 
-.intro-center p{
-    font-size: 23px;
+.intro-text p{
+    font-size: 18px;
+    width: 980px;
 }
 
-/* .main-page-socials-left {
-    display:inline;
-    margin-top: 50px;
-}
-
-.main-page-socials-left a img {
-    height: 35px;
-    width: 80px;
+.intro-text p a{
     text-decoration: none;
-    display: block;
-    margin-bottom: 20px;
-} */ 
+    color: #922724;
+}
 
 .my-face-right img {
     border-radius: 20px;
-    border: 2px solid rgba(143, 34, 7, 0.685);
-    height: fit-content;
-    width: fit-content;
-}
-
-.container-2 {
-    max-width: 1366px;
-    margin: 0 auto;
-}
-
-.my-work h1 {
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.my-work p {
-    text-align: justify;
-    margin-bottom: 70px;
-    font-size: 21px;
+    border: 2px solid #922724;
+    height: 280px;
+    width: 240px;
 }
 
 .my-work-grid {
@@ -131,12 +100,12 @@ body {
     /* to center everything in the grid */ 
     place-content: center;
     margin-bottom: 100px;
-}
+} 
 
-.software-development ul {
+.software-development ul { 
     /* to make the list appear inside the heading */ 
     padding-left: 20px;
-}
+} 
 
 .software-development ul li{
     font-size: 18px;
@@ -174,10 +143,11 @@ body {
 
 .gear ul li{
     font-size: 18px;
-}
+} 
 
-.container-3 {
+.container-2 {
     max-width: 1366px;
+    margin: 0 auto;
 }
 
 .footer h3 {
@@ -263,10 +233,6 @@ body {
     }
     
     .projects {
-        display: none;
-    }
-
-    .gear {
         display: none;
     }
 
