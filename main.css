@@ -100,11 +100,11 @@ img {
 /* Mobile Menu */
 .mobile-menu {
     position: fixed;
-    top: 75px;
+    top: 111px;
     /* To push it to the right side */
     right: 0;
-    background-color: #922724;
-    color: #000;
+    background-color: #fff;
+    color: #922724;
     width: 90%;
     height: 100%;
     padding: 30px;
@@ -116,15 +116,8 @@ img {
     display: none;
 }
 
-.mobile-menu img {
-    height: 20px;
-    width: 20px;
-    margin-right: 10px;
-}
-
 .mobile-menu ul {
-    line-height: 3;
-    border-bottom: #922724 solid 1px;
+    line-height: 4;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
@@ -135,17 +128,7 @@ img {
 }
 
 .mobile-menu a:hover {
-    color: #922724;
-}
-
-.mobile-menu div {
-    margin-top: 20px;
-}
-
-.mobile-menu div a {
-    display: flex;
-    align-items: center;
-    font-size: 16px;
+    color: #000;
 }
 
 .hidden {
@@ -273,6 +256,7 @@ body {
     background-color: #be3a36;
     box-shadow: 10px 10px 10px #922724, 0 2px 2px #922724, 0 0 2px #922724;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .project-container a img{
@@ -325,6 +309,7 @@ body {
 .image-container img:hover {
     box-shadow: 10px 10px 10px #922724, 0 2px 2px #922724, 0 0 2px #922724;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 @media(max-width: 600px) {
@@ -346,7 +331,6 @@ body {
 
     .nav-container {
         display: flex;
-        box-shadow: 0 1px 3px #922724, 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px #922724;
     }
 
     .nav-left a:first-child{
