@@ -70,7 +70,7 @@ img {
     left: 0;
     width: 24px;
     height: 2px;
-    background: #000;
+    background: #922724;
     transform: rotate(0);
     transition: all 0.5s;
 }
@@ -168,7 +168,7 @@ body {
 .container-1 {
     margin-top: 10px; 
     display: block;
-    height: 71vh;
+    height: auto;
 }
 
 .intro {
@@ -327,13 +327,6 @@ body {
     cursor: pointer;
 }
 
-@media(max-width: 768px) {
-    
-    .hamburger{
-        display: inline;
-    }
-}
-
 @media(max-width: 600px) {
     * {
         /*box-sizing: border-box; */
@@ -352,14 +345,18 @@ body {
     }
 
     .nav-container {
-        display: inline;
-        box-shadow: none;
+        display: flex;
+        box-shadow: 0 1px 3px #922724, 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px #922724;
     }
 
     .nav-left a:first-child{
         font-size: 20px;
-        margin: auto;
-        padding: auto;
+        margin-left: -30px;
+        padding: 0px;
+    }
+
+    .nav-right {
+        margin-right: -20px;
     }
     
     .projects {
@@ -378,7 +375,11 @@ body {
         display: none;
     }
 
-    body{
+    .hamburger {
+        display: inline;
+    }
+
+    body {
         /* color: var(--color);
         background-color: var(--primary-background-color); */
         font-family: 'Open Sans', sans-serif;
@@ -390,7 +391,7 @@ body {
     .container-1 {
         margin-top: 0px; 
         display: inline-block;
-        height: 140vh;
+        height: auto;
     }
 
     .intro {
@@ -405,11 +406,17 @@ body {
 
     .intro-text p {
         font-size: 20px;
+        width: auto;
+        margin-bottom: 30px;
     }
 
     .my-face-right {
         height: 280px;
         width: 240px;
+    }
+
+    .second-intro {
+        margin-bottom: 30px;
     }
 
     .my-work-grid {
@@ -418,7 +425,6 @@ body {
         gap: 2.5rem;
         /* to center everything in the grid */ 
         place-content: center;
-        margin-bottom: 80px;
     }
 
     .software-development h3 {
@@ -509,6 +515,12 @@ body {
 
     .project-container {
         margin-bottom: 10px;
+    }
+
+    .project-container:hover{
+        margin-top: 0px;
+        background-color: #be3a36;
+        box-shadow: none;
     }
 
     .project-container a img {
