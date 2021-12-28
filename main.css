@@ -129,12 +129,12 @@ body {
 
 .community ul li a {
     text-decoration: none;
-    color: #000;
+    color: #922724;
 }
 
 .community ul li a:hover {
-    text-decoration: none;
-    color: rgb(85, 4, 122);
+    cursor: pointer;
+    color:#be3a36;
 }
 
 .gear ul {
@@ -145,7 +145,7 @@ body {
     font-size: 18px;
 } 
 
-/* project.html */
+/* projects */
 #projects-container-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -163,7 +163,10 @@ body {
 }
 
 .project-container:hover{
-    box-shadow: 20px 20px 20px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    margin-top: -14px;
+    background-color: #be3a36;
+    box-shadow: 10px 10px 10px #922724, 0 2px 2px #922724, 0 0 2px #922724;
+    cursor: pointer;
 }
 
 .project-container a img{
@@ -202,6 +205,25 @@ body {
     width: 30px;
     display: inline-flex; 
     margin-right: 10px;
+}
+
+/* my-art */
+.image-container {
+    margin-top: 50px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 100px;
+}
+
+.image-container img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image-container img:hover {
+    box-shadow: 10px 10px 10px #922724, 0 2px 2px #922724, 0 0 2px #922724;
+    cursor: pointer;
 }
 
 @media(max-width: 600px) {
