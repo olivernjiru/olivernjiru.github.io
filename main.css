@@ -98,7 +98,7 @@ img {
 }
 
 /* Mobile Menu */
-.mobile-menu {
+#menu {
     position: fixed;
     top: 111px;
     /* To push it to the right side */
@@ -116,18 +116,18 @@ img {
     display: none;
 }
 
-.mobile-menu ul {
+#menu ul {
     line-height: 4;
     padding-bottom: 10px;
     margin-bottom: 30px;
 }
 
-.mobile-menu a {
+#menu a {
     text-decoration: none;
     font-size: 20px;
 }
 
-.mobile-menu a:hover {
+#menu a:hover {
     color: #000;
 }
 
