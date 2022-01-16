@@ -155,6 +155,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     font-weight: 600;
+    max-width: 1366px;
 }
 
 /* Container 1 */
@@ -315,6 +316,15 @@ body {
     box-shadow: 5px 5px 5px var(--lighter-tertiary-color), 0 2px 2px var(--lighter-tertiary-color), 0 0 2px var(--lighter-tertiary-color);
     cursor: pointer;
     transition:ease-in-out .5s;
+}
+
+/* Media Query for smaller screens */
+@media(max-width: 1068px) {
+
+}
+
+@media(max-width: 768px) {
+
 }
 
 @media(max-width: 500px) {
