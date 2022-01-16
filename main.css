@@ -41,7 +41,7 @@ img {
 .nav-left a {
     margin-right: 40px;
     text-decoration: none;
-    color: #000;
+    color: var(--color);
     padding: 10px 5px 10px 5px;
 }
 
@@ -51,7 +51,7 @@ img {
 
 .nav-right a {
     text-decoration: none;
-    color: #000;
+    color: var(--color);
     padding: 10px 5px 10px 5px;
 }
 
@@ -108,12 +108,11 @@ img {
     top: 111px;
     /* To push it to the right side */
     right: 0;
-    background-color: #fff;
+    background-color: var(--primary-background-color);
     color: var(--tertiary-color);
     width: 90%;
     height: 100%;
     padding: 30px;
-    border-right: #ccc 1px solid;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -133,10 +132,6 @@ img {
     font-size: 20px;
 }
 
-#menu a:hover {
-    color: #000;
-}
-
 .hidden {
     transform: translateX(100%);
 }
@@ -146,12 +141,13 @@ img {
 }
 
 body {
-    /* color: var(--color);
-    background-color: var(--primary-background-color); */
-    font-family: 'Open Sans', sans-serif;
+    color: var(--color);
+    background-color: var(--primary-background-color);
+    font-family: 'Poppins', 'Open Sans', sans-serif;
     line-height: 1.4;
     margin-left: 5%;
     margin-right: 5%;
+    font-weight: 600;
 }
 
 .container-1 {
@@ -174,7 +170,7 @@ body {
 
 .intro-text p{
     font-size: 18px;
-    width: 980px;
+    width: 80%;
 }
 
 .intro-text p a{
@@ -261,7 +257,7 @@ body {
 .project-container:hover{
     margin-top: -14px;
     background-color: var(--tertiary-color);
-    box-shadow: 10px 10px 10px var(--tertiary-color), 0 2px 2px var(--tertiary-color), 0 0 2px var(--tertiary-color);
+    box-shadow: 10px 10px 10px var(--secondary-background-color), 0 2px 2px var(--secondary-background-color), 0 0 2px var(--tertiary-color);
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -314,7 +310,7 @@ body {
 }
 
 .image-container img:hover {
-    box-shadow: 10px 10px 10px var(--tertiary-color), 0 2px 2px var(--tertiary-color), 0 0 2px var(--tertiary-color);
+    box-shadow: 10px 10px 10px var(--secondary-background-color), 0 2px 2px var(--secondary-background-color), 0 0 2px var(--secondary-background-color);
     cursor: pointer;
     transition:ease-in-out .5s;
 }
@@ -356,9 +352,6 @@ body {
     }
 
     body {
-        color: var(--color);
-        background-color: var(--primary-background-color); 
-        font-family: 'Open Sans', sans-serif;
         line-height: 1.4;
         margin-left: 1%;
         margin-right: 1%;
