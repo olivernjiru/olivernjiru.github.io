@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 /* set variables on the root scope so that they can be used everywhere */
- /* :root { */
+:root {
     /* github dark theme background-color */ 
-    /* --primary-background-color: #161b22; */
+    --primary-background-color: #161b22; 
     /* github text-color */ 
-    /* --color: #f0f6fc; */
-    /* --secondary-background-color: #010409; */ 
-/*} */
+    --color: #f0f6fc; 
+    --secondary-background-color: #010409;  
+}
 
 /* reset point */ 
 * {
@@ -111,8 +111,8 @@ img {
     width: 90%;
     height: 100%;
     padding: 30px;
-    box-shadow: inset 0 4px 3px -3px #922724, inset 0 4px 2px -2px #922724 ;
-    transition: all 0.3s;
+    border-right: #ccc 1px solid;
+    transition: transform 0.5s ease-in-out;
 }
 
 .mobile-menu-hidden {
@@ -317,7 +317,7 @@ body {
     transition: all 0.5s;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 390px) {
     .nav-container {
         display: flex;
     }
