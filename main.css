@@ -116,7 +116,7 @@ img {
     right: 0;
     background-color: var(--primary-background-color);
     color: var(--tertiary-color);
-    width: 90%;
+    width: 52%;
     height: 100%;
     padding: 30px;
     transition: transform 0.5s ease-in-out;
@@ -361,8 +361,8 @@ body {
 
     body {
         line-height: 1.4;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .container-1 {
