@@ -328,6 +328,7 @@ body {
 }
 
 @media(max-width: 500px) {
+    /* Navigation */
     .nav-left a:first-child{
         font-size: 20px;
         margin-left: -30px;
@@ -359,18 +360,21 @@ body {
         display: inline;
     }
 
+    /* Body */
     body {
         line-height: 1.4;
         margin-left: 0;
         margin-right: 0;
     }
 
+    /* Container 1 */
     .container-1 {
         margin-top: 35px; 
         display: inline-block;
         height: auto;
     }
 
+    /* Intro */
     .intro {
         display: inline-block;
     }
@@ -397,6 +401,7 @@ body {
         width: 240px;
     }
 
+    /* Second Intro */
     .second-intro {
         margin-bottom: 30px;
     }
@@ -409,65 +414,50 @@ body {
         place-content: center;
     }
 
-    .software-development h3 {
-        font-size: 23px;
-    }
-    
-    .software-development ul {
-        /* to make the list appear inside the heading */ 
-        padding-left: 20px;
-    }
-
-    .software-development ul li{
+    .my-work-grid h3 {
         font-size: 20px;
     }
 
-    .photo-editing h3 {
-        font-size: 23px;
-    }
-    
-    .photo-editing ul {
-        padding-left: 20px;
+    .my-work-grid ul {
+        /* to make the list appear inside the heading */
+        padding-left: 25px;
     }
 
-    .photo-editing ul li{
-        font-size: 20px;
-    }
-
-    .community h3 {
-        font-size: 23px;
+    .my-work-grid ul li {
+        font-size: 16px;
     }
     
-    .community ul {
-        padding-left: 20px;
-    }
-
-    .community ul li{
-        font-size: 20px;
-    }
-    
-    .community ul li a {
+    .my-work-grid ul li a {
         text-decoration: none;
         color: var(--tertiary-color);
     }
-    
-    .community ul li a:hover {
-        text-decoration: none;
-        color: rgb(85, 4, 122);
-    }
 
-    .gear h3 {
-        font-size: 23px;
+    /* project.html */
+    #projects-container-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+        margin-bottom: 70px;
     }
     
-    .gear ul {
-        padding-left: 20px;
+    .project-container {
+        margin-bottom: 10px;
     }
-
-    .gear ul li{
+    
+    .project-container:hover{
+        background-color: var(--lighter-tertiary-color);
+    }
+    
+    .project-container a img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .project-container h3 {
         font-size: 20px;
     }
     
+    /* Footer */
     #footer h3 {
         margin-bottom: 40px;
         text-transform: uppercase;
@@ -475,7 +465,7 @@ body {
     }
     
     .footer-social-links {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
         text-align: center;
         margin-left: 10px;
     }
@@ -487,44 +477,12 @@ body {
         margin-right: 10px;
     }
 
-    /* project.html */
-    #projects-container-1 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 0.2rem;
-        margin-bottom: 100px;
-    }
-
-    .project-container {
-        margin-bottom: 10px;
-    }
-
-    .project-container:hover{
-        margin-top: 0px;
-        background-color: var(--lighter-tertiary-color);
-        box-shadow: none;
-    }
-
-    .project-container a img {
-        height: 40px;
-        width: 40px;
-    }
-
-    .project-container h3 {
-        font-size: 20px;
-    }
-
-    /* my-art */
+    /* My Art */
     .image-container {
-        margin-top: 50px; 
+        margin-top: 70px; 
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         gap: 1rem;
-        margin-bottom: 100px;
-    }
-
-    .image-container img:hover {
-        box-shadow: 10px 10px 10px var(--tertiary-color), 0 2px 2px var(--tertiary-color), 0 0 2px var(--tertiary-color);
-        cursor: pointer;
+        margin-bottom: 70px;
     }
 }
