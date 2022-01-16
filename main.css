@@ -116,7 +116,7 @@ img {
     right: 0;
     background-color: var(--primary-background-color);
     color: var(--tertiary-color);
-    width: 52%;
+    width: 60%;
     height: 100%;
     padding: 30px;
     transition: transform 0.5s ease-in-out;
