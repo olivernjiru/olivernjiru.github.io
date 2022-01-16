@@ -8,6 +8,8 @@
     /* github text-color */ 
     --color: #f0f6fc; 
     --secondary-background-color: #010409;  
+    --tertiary-color: #922724;
+    --lighter-tertiary-color: #be3a36;
 }
 
 /* reset point */ 
@@ -61,7 +63,7 @@ img {
     background: none;
     border: none;
     z-index: 10;
-    transition: all 0.25s;
+    transition: all 0.5s;
     display: none;
 }
 
@@ -73,7 +75,7 @@ img {
     left: 0;
     width: 24px;
     height: 2px;
-    background: #922724;
+    background: var(--tertiary-color);
     transform: rotate(0);
     transition: all 0.5s;
 }
@@ -107,7 +109,7 @@ img {
     /* To push it to the right side */
     right: 0;
     background-color: #fff;
-    color: #922724;
+    color: var(--tertiary-color);
     width: 90%;
     height: 100%;
     padding: 30px;
@@ -177,12 +179,12 @@ body {
 
 .intro-text p a{
     text-decoration: none;
-    color: #922724;
+    color: var(--tertiary-color);
 }
 
 .my-face-right img {
     border-radius: 20px;
-    border: 2px solid #922724;
+    border: 2px solid var(--tertiary-color);
     height: auto;
     width: auto;
 }
@@ -223,12 +225,12 @@ body {
 
 .community ul li a {
     text-decoration: none;
-    color: #922724;
+    color: var(--tertiary-color);
 }
 
 .community ul li a:hover {
     cursor: pointer;
-    color:#be3a36;
+    color: var(--lighter-tertiary-color);
 }
 
 .gear ul {
@@ -250,7 +252,7 @@ body {
 .project-container {
     padding: 30px;
     border-radius: 20px;
-    background-color: #922724;
+    background-color: var(--tertiary-color);
     box-shadow: 8px 8px 8px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
     color: #fff;
     height:400px;
@@ -258,8 +260,8 @@ body {
 
 .project-container:hover{
     margin-top: -14px;
-    background-color: #be3a36;
-    box-shadow: 10px 10px 10px #922724, 0 2px 2px #922724, 0 0 2px #922724;
+    background-color: var(--tertiary-color);
+    box-shadow: 10px 10px 10px var(--tertiary-color), 0 2px 2px var(--tertiary-color), 0 0 2px var(--tertiary-color);
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -312,12 +314,12 @@ body {
 }
 
 .image-container img:hover {
-    box-shadow: 10px 10px 10px #922724, 0 2px 2px #922724, 0 0 2px #922724;
+    box-shadow: 10px 10px 10px var(--tertiary-color), 0 2px 2px var(--tertiary-color), 0 0 2px var(--tertiary-color);
     cursor: pointer;
-    transition: all 0.5s;
+    transition:ease-in-out .5s;
 }
 
-@media(max-width: 390px) {
+@media(max-width: 500px) {
     .nav-container {
         display: flex;
     }
@@ -326,6 +328,7 @@ body {
         font-size: 20px;
         margin-left: -30px;
         padding: 0px;
+        color: var(--color);
     }
 
     .nav-right {
@@ -353,8 +356,8 @@ body {
     }
 
     body {
-        /* color: var(--color);
-        background-color: var(--primary-background-color); */
+        color: var(--color);
+        background-color: var(--primary-background-color); 
         font-family: 'Open Sans', sans-serif;
         line-height: 1.4;
         margin-left: 1%;
@@ -394,7 +397,7 @@ body {
 
     .my-work-grid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         gap: 2.5rem;
         /* to center everything in the grid */ 
         place-content: center;
@@ -439,7 +442,7 @@ body {
     
     .community ul li a {
         text-decoration: none;
-        color: #000;
+        color: var(--tertiary-color);
     }
     
     .community ul li a:hover {
@@ -492,7 +495,7 @@ body {
 
     .project-container:hover{
         margin-top: 0px;
-        background-color: #be3a36;
+        background-color: var(--lighter-tertiary-color);
         box-shadow: none;
     }
 
@@ -515,7 +518,7 @@ body {
     }
 
     .image-container img:hover {
-        box-shadow: 10px 10px 10px #922724, 0 2px 2px #922724, 0 0 2px #922724;
+        box-shadow: 10px 10px 10px var(--tertiary-color), 0 2px 2px var(--tertiary-color), 0 0 2px var(--tertiary-color);
         cursor: pointer;
     }
 }
