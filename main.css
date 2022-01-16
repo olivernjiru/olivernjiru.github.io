@@ -328,10 +328,6 @@ body {
 }
 
 @media(max-width: 500px) {
-    .nav-container {
-        display: flex;
-    }
-
     .nav-left a:first-child{
         font-size: 20px;
         margin-left: -30px;
@@ -370,7 +366,7 @@ body {
     }
 
     .container-1 {
-        margin-top: 0px; 
+        margin-top: 35px; 
         display: inline-block;
         height: auto;
     }
@@ -385,10 +381,15 @@ body {
         text-transform: uppercase;
     }
 
-    .intro-text p {
-        font-size: 20px;
+    .intro-p-img p {
+        font-size: 16px;
         width: auto;
         margin-bottom: 30px;
+    }
+
+    .intro-p-img {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .my-face-right {
