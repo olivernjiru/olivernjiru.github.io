@@ -60,6 +60,7 @@ img {
     padding: 10px 5px 10px 5px;
 }
 
+/* Hmaburger */
 .hamburger {
     cursor: pointer;
     position: relative;
@@ -145,6 +146,7 @@ img {
     overflow: hidden;
 }
 
+/* Body */
 body {
     color: var(--color);
     background-color: var(--primary-background-color);
@@ -155,6 +157,7 @@ body {
     font-weight: 600;
 }
 
+/* Container 1 */
 .container-1 {
     margin-top: 70px; 
     width: auto;
@@ -162,6 +165,7 @@ body {
     height: 100%;
 }
 
+/* Intro */
 .intro {
     display: inline;
 }
@@ -197,6 +201,13 @@ body {
     width: auto;
 }
 
+.my-face-right img:hover {
+    cursor: pointer;
+    margin-top: -20px;
+    transition: all 0.5s;
+}
+
+/* Second Intro */
 .second-intro {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -208,64 +219,39 @@ body {
     gap: 5rem;
     /* to center everything in the grid */ 
     place-content: center;
-} 
+}
 
-.software-development ul { 
+.my-work-grid ul {
     /* to make the list appear inside the heading */ 
     padding-left: 20px;
-} 
+}
 
-.software-development ul li{
+.my-work-grid ul li {
     font-size: 16px;
 }
 
-.photo-editing ul {
-    padding-left: 20px;
-}
-
-.photo-editing ul li{
-    font-size: 16px;
-}
-
-.community ul {
-    padding-left: 20px;
-}
-
-.community ul li{
-    font-size: 16px;
-}
-
-.community ul li a {
+.my-work-grid ul li a {
     text-decoration: none;
     color: var(--tertiary-color);
 }
 
-.community ul li a:hover {
+.my-work-grid ul li a:hover {
     cursor: pointer;
     color: var(--lighter-tertiary-color);
 }
 
-.gear ul {
-    padding-left: 20px;
-}
-
-.gear ul li{
-    font-size: 16px;
-} 
-
-/* projects */
+/* Projects Container 1 */
 #projects-container-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .project-container {
     padding: 30px;
     border-radius: 20px;
     background-color: var(--tertiary-color);
-    box-shadow: 8px 8px 8px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
     color: #fff;
     height:400px;
 }
@@ -292,9 +278,10 @@ body {
     margin-top: 50px;
 }
 
+/* Container 2 */
 .container-2 {
     max-width: 1366px;
-    margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 #footer h3 {
@@ -304,7 +291,6 @@ body {
 }
 
 .footer-social-links {
-    margin-bottom: 100px;
     text-align: center;
     margin-left: 10px;
 }
@@ -316,17 +302,17 @@ body {
     margin-right: 10px;
 }
 
-/* my-art */
+/* My Art */
 .image-container {
-    margin-top: 50px; 
+    margin-top: 70px; 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .image-container img:hover {
-    box-shadow: 10px 10px 10px var(--secondary-background-color), 0 2px 2px var(--secondary-background-color), 0 0 2px var(--secondary-background-color);
+    box-shadow: 5px 5px 5px var(--lighter-tertiary-color), 0 2px 2px var(--lighter-tertiary-color), 0 0 2px var(--lighter-tertiary-color);
     cursor: pointer;
     transition:ease-in-out .5s;
 }
