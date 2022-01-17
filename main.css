@@ -99,6 +99,7 @@ img {
 /*is toggled when the navToggle function in the JS script is run and the open class is toggled when the button is clicked  to create an open class in the Hamburger button */
 .open .hamburger-top {
     transform: rotate(45deg) translateY(6px) translateX(6px);
+    background-color: var(--lighter-tertiary-color);
 }
 .open .hamburger-middle {
     display: none;
@@ -106,6 +107,7 @@ img {
 
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
+    background-color: var(--lighter-tertiary-color);
 }
 
 /* Mobile Menu */
@@ -116,7 +118,7 @@ img {
     right: 0;
     background-color: var(--primary-background-color);
     color: var(--tertiary-color);
-    width: 60%;
+    width: 70%;
     height: 100%;
     padding: 30px;
     transition: transform 0.5s ease-in-out;
