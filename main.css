@@ -117,8 +117,7 @@ img {
     /* To push it to the right side */
     right: 0;
     background-color: var(--primary-background-color);
-    color: var(--tertiary-color);
-    width: 80%;
+    width: 70%;
     height: 100%;
     padding: 30px;
     transition: transform 0.5s ease-in-out;
@@ -138,6 +137,19 @@ img {
 #menu a {
     text-decoration: none;
     font-size: 18px;
+    color: var(--tertiary-color);
+}
+
+#menu a:hover {
+    color: var(--lighter-tertiary-color);
+}
+
+#menu a:active {
+    color: var(--lighter-tertiary-color);
+}
+
+#menu a:visited {
+    color: var(--lighter-tertiary-color);
 }
 
 .hidden {
