@@ -129,7 +129,7 @@ a:link {
     /* To push it to the right side */
     right: 0;
     background-color: var(--primary-background-color);
-    width: 70%;
+    width: 80%;
     height: 100%;
     padding: 30px;
     transition: transform 0.5s ease-in-out;
