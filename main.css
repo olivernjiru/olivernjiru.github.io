@@ -34,14 +34,17 @@ img {
     max-height: 100%;
 }
 
+/* Universal Active Link Styling */
 a:active {
     color: var(--lighter-tertiary-color);
 }
 
+/* Universal Visited Link Styling */
 a:visited {
     color: var(--lighter-tertiary-color);
 }
 
+/* Universal Link Styling */
 a:link {
     color: var(--tertiary-color)
 }
