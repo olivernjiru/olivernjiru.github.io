@@ -97,6 +97,7 @@ a:link {
     display: none;
 }
 
+/* Hamburger Top, Middle and Bottom Universal Styling */
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
@@ -110,16 +111,19 @@ a:link {
     transition: all 0.5s;
 }
 
+/* Hamburger Middle Styling */
 .hamburger-middle {
     /* To show the middle part of the Hamburger */
     transform: translateY(7px);
 }
 
+/* Hamburger Middle Styling */
 .hamburger-bottom {
     /* To show the bottom part of the Hamburger */
     transform: translateY(14px);
 }
 
+/* Open action Styling */
 /*is toggled when the navToggle function in the JS script is run and the open class is toggled when the button is clicked  to create an open class in the Hamburger button */
 .open .hamburger-top {
     transform: rotate(45deg) translateY(6px) translateX(6px);
@@ -147,6 +151,7 @@ a:link {
     transition: transform 0.5s ease-in-out;
 }
 
+/* Hidden Mobile Menu */
 .mobile-menu-hidden {
     display: none;
 }
@@ -158,6 +163,7 @@ a:link {
     margin-bottom: 30px;
 }
 
+/* Mobile Menu Link */
 #menu a {
     text-decoration: none;
     font-size: 18px;
