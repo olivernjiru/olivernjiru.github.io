@@ -1,29 +1,34 @@
 /* Imported font from Google Fonts */ 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-/* set variables on the root scope so that they can be used everywhere */
+/* Set color variables in root so that they can be used everywhere else in the css */
 :root {
-    /* github dark theme background-color */ 
+    /* GitHub dark theme primary-background-color */ 
     --primary-background-color: #161b22; 
     /* github text-color */ 
-    --color: #f0f6fc; 
+    --color: #f0f6fc;
+    /* GitHub dark theme secondary-background-color */  
     --secondary-background-color: #010409;  
+    /* My own tertiary theme color */
     --tertiary-color: #922724;
+    /* My own lighter-tertiary theme color */
     --lighter-tertiary-color: #e02209;
 }
 
-/* reset point */ 
+/* Reset point */ 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Universal Paragraph Styling */
 p {
     margin: 5px 0;
     line-height: 1.7;
 }
 
+/* Universal Image Styling */
 img {
     max-width: 100%;
     max-height: 100%;
