@@ -156,6 +156,7 @@ a:link {
     display: none;
 }
 
+/* Menu's Unordered List */
 #menu ul {
     list-style: none;
     line-height: 4;
@@ -163,29 +164,34 @@ a:link {
     margin-bottom: 30px;
 }
 
-/* Mobile Menu Link */
+/* Menu Link */
 #menu a {
     text-decoration: none;
     font-size: 18px;
     color: var(--tertiary-color);
 }
 
+/* Menu's Hover State Link */
 #menu a:hover {
     color: var(--lighter-tertiary-color);
 }
 
+/* Menu's Active State Link */
 #menu a:active {
     color: var(--lighter-tertiary-color);
 }
 
+/* Menu's Visited State Link */
 #menu a:visited {
     color: var(--lighter-tertiary-color);
 }
 
+/* Menu when hidden */
 .hidden {
     transform: translateX(100%);
 }
 
+/* Menu when visible, no-scroll */
 .no-scroll {
     overflow: hidden;
 }
