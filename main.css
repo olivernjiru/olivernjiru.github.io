@@ -202,6 +202,7 @@ body {
     background-color: var(--primary-background-color);
     font-family: 'Poppins', 'Open Sans', sans-serif;
     line-height: 1.4;
+    /* To center the content */
     margin-left: 10%;
     margin-right: 10%;
     font-weight: 600;
@@ -221,30 +222,36 @@ body {
     display: inline;
 }
 
+/* Heading 2 in intro-text */
 .intro-text h2 {
     /* letter-spacing: 20px; */
     text-transform: uppercase;
 }
 
+/* Intro Paragraph and Image Container styling */
 .intro-p-img {
     display: flex;
     align-items: center;
 }
 
+/* Styling the paragraph in the container */
 .intro-p-img p{
     font-size: 16px;
     width: 100%;
 }
 
+/*Styling the link in the container */
 .intro-p-img p a {
     text-decoration: none;
     color: var(--tertiary-color);
 }
 
+/* Styling the hover state link in the container */
 .intro-p-img p a:hover {
     color: var(--lighter-tertiary-color);
 }
 
+/* Styling the image in my-face-right div */
 .my-face-right img {
     border-radius: 20px;
     border: 2px solid var(--lighter-tertiary-color);
@@ -252,6 +259,7 @@ body {
     width: auto;
 }
 
+/* Styling the hover state of the image in the my-face-right div */
 .my-face-right img:hover {
     cursor: pointer;
     margin-top: -20px;
