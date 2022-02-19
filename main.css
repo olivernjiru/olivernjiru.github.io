@@ -22,6 +22,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behaviour: smooth;
+}
+
 /* Universal Paragraph Styling */
 p {
     margin: 5px 0;
