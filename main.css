@@ -242,6 +242,7 @@ body {
 .intro-p-img p{
     font-size: 16px;
     width: 100%;
+    margin-right: 700px;
 }
 
 /*Styling the link in the container */
@@ -259,8 +260,8 @@ body {
 .my-face-right img {
     border-radius: 20px;
     border: 2px solid var(--lighter-tertiary-color);
-    height: auto;
-    width: auto;
+    height: 60%;
+    width: 60%;
 }
 
 /* Styling the hover state of the image in the my-face-right div */
