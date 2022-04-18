@@ -385,6 +385,14 @@ body {
     transition:ease-in-out .5s;
 }
 
+/* Socials */
+.socials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
 /* Media Query for smaller screens */
 @media(max-width: 1068px) {
     /* Navigation */
