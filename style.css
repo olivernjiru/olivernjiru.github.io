@@ -9,6 +9,8 @@
     --color: #f0f6fc;
     /* GitHub dark theme secondary-background-color */  
     --secondary-background-color: #010409;  
+    /* GitHub dark theme lighter-secondary-background-color */  
+    --lighter-secondary-background-color: #21262d;
     /* My own tertiary theme color */
     --tertiary-color: #922724;
     /* My own lighter-tertiary theme color */
@@ -899,15 +901,25 @@ body {
         text-align: center;
         align-items: center;
         margin-top: 100px;
+        background-color: var(--lighter-secondary-background-color);
+        border: 140px;
+        border-color: #fff;
+        margin-left: 10px;
+        height: 400px;
+        width: 350px;
     }
 
     .socials a {
-        background-color: var(--secondary-background-color);
+        background-color: var(--primary-background-color);
         margin-bottom: 50px;
         padding-top: 10px;
         height: 50px;
         width: 140px;
         border-radius: 10px;
         text-decoration: none;
+    }
+
+    .socials a:first-child {
+        margin-top: 50px;
     }
 }
