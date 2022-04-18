@@ -385,14 +385,6 @@ body {
     transition:ease-in-out .5s;
 }
 
-/* Socials */
-.socials{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
 /* Media Query for smaller screens */
 @media(max-width: 1068px) {
     /* Navigation */
@@ -898,5 +890,24 @@ body {
         margin-bottom: 70px;
         margin-right: 1.5%;
         margin-left: 1.5%;
+    }
+
+    /* Socials */
+    .socials{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .socials a {
+        background-color: var(--secondary-background-color);
+        margin-bottom: 50px;
+        padding-top: 10px;
+        height: 50px;
+        width: 140px;
+        border-radius: 10px;
+        text-decoration: none;
     }
 }
