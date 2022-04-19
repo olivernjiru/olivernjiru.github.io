@@ -387,6 +387,32 @@ body {
     transition:ease-in-out .5s;
 }
 
+/* Socials */
+.socials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: var(--lighter-secondary-background-color);
+    width: 99%;
+}
+
+.socials a {
+    background-color: var(--primary-background-color);
+    margin-bottom: 10%;
+    font-size: 30px;
+    padding-top: 2.5%;
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+    text-decoration: none;
+}   
+
+.socials a:first-child {
+    margin-top: 15%;
+}
+
 /* Media Query for smaller screens */
 @media(max-width: 1068px) {
     /* Navigation */
@@ -537,6 +563,23 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
         margin-bottom: 70px;
+    }
+
+    /* Socials */
+    .socials{
+        width: 99.9%;
+    }
+
+    .socials a {
+        font-size: 24px;
+        margin-bottom: 20%;
+        padding-top: 1.5%;
+        height: 75px;
+        width: 200px;
+    }    
+
+    .socials a:first-child {
+        margin-top: 20%;
     }
 }
 
@@ -717,6 +760,19 @@ body {
         gap: 1rem;
         margin-bottom: 70px;
     }
+
+    /* Socials */
+    .socials a {
+        font-size: 20px;
+        padding-top: 1.5%;
+        margin-bottom: 32%;
+        height: 50px;
+        width: 150px;
+    }
+
+    .socials a:first-child {
+        margin-top: 32%;
+    }
 }
 
 @media(max-width: 375px) {
@@ -895,31 +951,14 @@ body {
     }
 
     /* Socials */
-    .socials{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        margin-top: 100px;
-        background-color: var(--lighter-secondary-background-color);
-        border: 140px;
-        border-color: #fff;
-        margin-left: 10px;
-        height: 400px;
-        width: 350px;
-    }
-
     .socials a {
-        background-color: var(--primary-background-color);
-        margin-bottom: 50px;
-        padding-top: 10px;
-        height: 50px;
+        font-size: 18px;
+        margin-bottom: 30%;
+        padding-top: 3.5%;
         width: 140px;
-        border-radius: 10px;
-        text-decoration: none;
     }
 
     .socials a:first-child {
-        margin-top: 50px;
+        margin-top: 30%;
     }
 }
