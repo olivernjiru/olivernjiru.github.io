@@ -5,7 +5,7 @@
 :root {
     /* GitHub dark theme primary-background-color */ 
     --primary-background-color: #161b22; 
-    /* github text-color */ 
+    /* GitHub text-color */ 
     --color: #f0f6fc;
     /* GitHub dark theme secondary-background-color */  
     --secondary-background-color: #010409;  
@@ -22,10 +22,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-html {
-    scroll-behaviour: smooth;
 }
 
 /* Universal Paragraph Styling */
@@ -59,7 +55,8 @@ a:link {
 .nav-container {
     padding: 40px;
     display: flex;
-    box-shadow: 0 2px 2px var(--secondary-background-color), 0 2px 2px var(--secondary-background-color), 0 2px 2px var(--secondary-background-color);
+    background-color: var(--lighter-secondary-background-color);
+    box-shadow: 0 2px 2px var(--color), 0 2px 2px var(--color), 0 2px 2px var(--color);
     justify-content: space-between;
     max-width: 1366px;
     margin-bottom: 0px;
@@ -321,7 +318,7 @@ body {
 .project-container {
     padding: 30px;
     border-radius: 20px;
-    background-color: var(--tertiary-color);
+    background-color: var(--lighter-secondary-background-color);
     color: #fff;
     height:400px;
 }
