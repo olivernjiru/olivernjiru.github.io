@@ -51,10 +51,12 @@ a:link {
     color: var(--tertiary-color)
 }
 
+/*===========================================================================================================*/
 /* Nav Container */
 .nav-container {
     padding: 40px;
-    display: flex;
+    /*display: flex;*/
+    display: none;
     background-color: var(--lighter-secondary-background-color);
     box-shadow: 0 2px 2px var(--color), 0 2px 2px var(--color), 0 2px 2px var(--color);
     justify-content: space-between;
