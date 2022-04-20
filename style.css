@@ -87,13 +87,12 @@ a:link {
     max-width: 450px;
     height: 100vh;
     margin-top: 250px;
-    margin-left: 7%;
     color: var(--lighter-secondary-background-color);
 }
 
 #welcome h1 {
     font-size: 70px;
-    color: #fff;
+    color: var(--color);
 }
 
 #welcome h2 {
@@ -248,19 +247,19 @@ body {
     font-family: 'Poppins', 'Open Sans', sans-serif;
     line-height: 1.4;
     /* To center the content */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-weight: 600;
     max-width: 1366px;
 }
 
 /* Container 1 */
-.container-1 {
+/*.container-1 {
     margin-top: 70px; 
     width: auto;
     display: block;
     height: 100%;
-}
+}*/
 
 /* Intro */
 .intro {
