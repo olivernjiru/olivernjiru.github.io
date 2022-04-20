@@ -65,68 +65,6 @@ a:link {
     color: var(--color);
 }
 
-.social-links {
-    position: fixed;
-    z-index: 1;
-    top: 85%;
-    left: 90%;
-    /*display: none;*/
-    display: flex;
-}
-
-.social-links a {
-    margin-right: 3%;
-}
-
-.social-links a img {
-    height: 25px;
-    width: 25px;
-}
-
-#welcome {
-    max-width: 450px;
-    height: 100vh;
-    margin-top: 250px;
-    color: var(--lighter-secondary-background-color);
-}
-
-#welcome h1 {
-    font-size: 70px;
-    color: var(--color);
-}
-
-#welcome h2 {
-    font-size: 40px;
-}
-
-#welcome p {
-    margin-bottom: 10%;
-    word-spacing: 10px;
-}
-
-#welcome a {
-    display: flex;
-    align-items: center;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 3%;
-    border-color: var(--lighter-tertiary-color);
-    height: 75px;
-    width: 150px;
-    text-decoration: none;
-}
-
-#welcome a:hover {
-    background-color: var(--slate);
-}
-
-#welcome a img {
-    height: 30px;
-    width: 30px;
-    margin-right: 5%;
-    margin-left: 20%;
-}
-
 /*===========================================================================================================*/
 /* Hamburger */
 .hamburger {
@@ -240,6 +178,68 @@ a:link {
     overflow: hidden;
 }
 
+.social-links {
+    position: fixed;
+    z-index: 1;
+    top: 85%;
+    left: 90%;
+    /*display: none;*/
+    display: flex;
+}
+
+.social-links a {
+    margin-right: 3%;
+}
+
+.social-links a img {
+    height: 25px;
+    width: 25px;
+}
+
+#welcome {
+    max-width: 450px;
+    height: 100vh;
+    padding-top: 25%;
+    color: var(--lighter-secondary-background-color);
+}
+
+#welcome h1 {
+    font-size: 70px;
+    color: var(--color);
+}
+
+#welcome h2 {
+    font-size: 40px;
+}
+
+#welcome p {
+    margin-bottom: 10%;
+    word-spacing: 10px;
+}
+
+#welcome a {
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3%;
+    border-color: var(--lighter-tertiary-color);
+    height: 75px;
+    width: 150px;
+    text-decoration: none;
+}
+
+#welcome a:hover {
+    background-color: var(--slate);
+}
+
+#welcome a img {
+    height: 30px;
+    width: 30px;
+    margin-right: 5%;
+    margin-left: 20%;
+}
+
 /* Body */
 body {
     color: var(--color);
@@ -253,176 +253,19 @@ body {
     max-width: 1366px;
 }
 
-/* Container 1 */
-/*.container-1 {
-    margin-top: 70px; 
-    width: auto;
-    display: block;
-    height: 100%;
-}*/
-
-/* Intro */
-.intro {
-    display: inline;
-}
-
-/* Heading 2 in intro-text */
-.intro-text h2 {
-    /* letter-spacing: 20px; */
-    text-transform: uppercase;
-}
-
-/* Intro Paragraph and Image Container styling */
-.intro-p-img {
+.about-me {
     display: flex;
-    align-items: center;
 }
 
-/* Styling the paragraph in the container */
-.intro-p-img p{
-    font-size: 16px;
-    width: 100%;
-    margin-right: 700px;
+.about-me img {
+    width: 30%;
+    border-radius: 3%;
 }
 
-/*Styling the link in the container */
-.intro-p-img p a {
-    text-decoration: none;
-    color: var(--tertiary-color);
-}
-
-/* Styling the hover state link in the container */
-.intro-p-img p a:hover {
-    color: var(--lighter-tertiary-color);
-}
-
-/* Styling the image in my-face-right div */
-.my-face-right img {
-    border-radius: 20px;
-    border: 2px solid var(--lighter-tertiary-color);
-    height: 60%;
-    width: 60%;
-}
-
-/* Styling the hover state of the image in the my-face-right div */
-.my-face-right img:hover {
-    cursor: pointer;
-    margin-top: -20px;
-    transition: all 0.5s;
-}
-
-/* Second Intro */
-.second-intro {
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-/* Grid that shows my work */
-.my-work-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
-    /* to center everything in the grid */ 
-    place-content: center;
-}
-
-/* Unordered List of my-work-grid */
-.my-work-grid ul {
-    /* to make the list appear inside the heading */ 
-    padding-left: 20px;
-}
-
-/* List of the Unordered List of my-work-grid */
-.my-work-grid ul li {
-    font-size: 16px;
-}
-
-/* Link of the List of the Unordered List of my-work-grid */
-.my-work-grid ul li a {
-    text-decoration: none;
-    color: var(--tertiary-color);
-}
-
-/* Hover State of the Link of the List of the Unordered List of my-work-grid */
-.my-work-grid ul li a:hover {
-    cursor: pointer;
-    color: var(--lighter-tertiary-color);
-}
-
-/* Projects Container 1 */
-#projects-container-1 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin-bottom: 70px;
-}
-
-.project-container {
-    padding: 30px;
-    border-radius: 20px;
-    background-color: var(--lighter-secondary-background-color);
-    color: #fff;
-    height:400px;
-}
-
-.project-container:hover{
-    margin-top: -14px;
-    background-color: var(--lighter-tertiary-color);
-    box-shadow: 10px 10px 10px var(--secondary-background-color), 0 2px 2px var(--secondary-background-color), 0 0 2px var(--tertiary-color);
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.project-container a img{
-    height: 30px;
-    width: 30px;
-    margin-bottom: 30px;
-}
-
-.project-name {
-    margin-bottom: 30px;
-}
-
-.project-technologies {
-    margin-top: 50px;
-}
-
-/* Container 2 */
-.container-2 {
-    max-width: 1366px;
-    margin-bottom: 70px;
-}
-
-#footer h3 {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.footer-social-links {
-    text-align: center;
-    margin-left: 10px;
-}
-
-.footer-social-links a {
-    height: 30px; 
-    width: 30px;
-    display: inline-flex; 
-    margin-right: 10px;
-}
-
-/* My Art */
-.image-container {
-    margin-top: 70px; 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin-bottom: 70px;
-}
-
-.image-container img:hover {
-    box-shadow: 5px 5px 5px var(--lighter-tertiary-color), 0 2px 2px var(--lighter-tertiary-color), 0 0 2px var(--lighter-tertiary-color);
-    cursor: pointer;
-    transition:ease-in-out .5s;
+.words {
+    text-align: justify;
+    width: 440px;
+    margin-right: 8%;
 }
 
 /* Socials */
