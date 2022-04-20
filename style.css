@@ -258,7 +258,7 @@ body {
 }
 
 .about-me img {
-    width: 30%;
+    width: 25%;
     border-radius: 3%;
 }
 
@@ -266,6 +266,10 @@ body {
     text-align: justify;
     width: 440px;
     margin-right: 8%;
+}
+
+.words ul li {
+    list-style:inside;
 }
 
 /* Socials */
