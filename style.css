@@ -35,18 +35,21 @@ img {
     max-height: 100%;
 }
 
-/* Universal Active Link Styling */
-a:active {
-    color: var(--color);
+/* Universal Link Styling */
+a:link {
+    color: var(--lighter-tertiary-color);
 }
 
 a:hover {
     color: var(--color);
 }
 
-/* Universal Link Styling */
-a:link {
-    color: var(--lighter-tertiary-color)
+a:active {
+    color: var(--tertiary-color);
+}
+
+a:visited {
+    color: var(--lighter-tertiary-color);
 }
 
 /*===========================================================================================================*/
@@ -56,7 +59,6 @@ a:link {
     z-index: 1;
     top: 60%;
     left: 90%;
-    /*display: none;*/
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -64,12 +66,8 @@ a:link {
 
 /* Nav Container Hover Link */
 .nav-container a {
-    color: var(--lighter-tertiary-color);
     text-decoration: none;
     padding: 3px 3px;
-}
-.nav-container a:hover {
-    color: var(--color);
 }
 
 /*===========================================================================================================*/
@@ -133,7 +131,7 @@ a:link {
     top: 111px;
     /* To push it to the right side */
     right: 0;
-    background-color: var(--primary-background-color);
+    background-color: var(--light-navy);
     width: 80%;
     height: 100%;
     padding: 30px;
@@ -157,21 +155,6 @@ a:link {
 #menu a {
     text-decoration: none;
     font-size: 18px;
-    color: var(--tertiary-color);
-}
-
-/* Menu's Hover State Link */
-#menu a:hover {
-    color: var(--lighter-tertiary-color);
-}
-
-/* Menu's Active State Link */
-#menu a:active {
-    color: var(--lighter-tertiary-color);
-}
-
-/* Menu's Visited State Link */
-#menu a:visited {
     color: var(--lighter-tertiary-color);
 }
 
