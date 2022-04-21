@@ -343,6 +343,15 @@ body {
     color: var(--color);
 }
 
+/* My Art */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 /* Socials */
 .socials{
     display: flex;
