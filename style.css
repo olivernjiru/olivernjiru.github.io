@@ -263,7 +263,9 @@ body {
 .about-me {
     margin-top: 5%;
     display: flex;
+    flex-wrap: wrap;
     word-spacing: 7px;
+    color: var(--lighter-secondary-background-color);
 }
 
 .about-me img {
@@ -394,7 +396,7 @@ body {
         margin-right: 3%;
     }
 
-    #project {
+    #software-creations {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
@@ -467,6 +469,10 @@ body {
 
 @media(max-width: 768px) {
     /* Navigation */
+    .nav-container {
+        display: none;
+    }
+
     .nav-container a {
         color: var(--tertiary-color);
     }
@@ -487,10 +493,6 @@ body {
 
     .nav-right {
         margin-right: -20px;
-    }
-    
-    .project {
-        display: none;
     }
 
     .resume {
@@ -522,7 +524,7 @@ body {
     }
 
     /* project.html */
-    #projects-container-1 {
+    #software-creations {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
@@ -530,20 +532,20 @@ body {
         margin-right: 9%;
     }
     
-    .project-container {
+    .project {
         margin-bottom: 10px;
     }
     
-    .project-container:hover{
+    .project:hover{
         background-color: var(--lighter-tertiary-color);
     }
     
-    .project-container a img {
+    .project a img {
         height: 40px;
         width: 40px;
     }
     
-    .project-container h3 {
+    .project h3 {
         font-size: 20px;
     }
     
@@ -613,10 +615,6 @@ body {
     .nav-right {
         margin-right: -20px;
     }
-    
-    .project {
-        display: none;
-    }
 
     .resume {
         display: none;
@@ -643,7 +641,7 @@ body {
     }
 
     /* project.html */
-    #projects-container-1 {
+    #software-creations {
         display: grid;
         grid-template-columns: 1fr;
         gap: 0.2rem;
@@ -652,20 +650,20 @@ body {
         margin-right: 11%;
     }
     
-    .project-container {
+    .project {
         margin-bottom: 10px;
     }
     
-    .project-container:hover{
+    .project:hover{
         background-color: var(--lighter-tertiary-color);
     }
     
-    .project-container a img {
+    .project a img {
         height: 40px;
         width: 40px;
     }
     
-    .project-container h3 {
+    .project h3 {
         font-size: 20px;
     }
     
