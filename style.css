@@ -6,6 +6,9 @@
     --primary-background-color: #0a192f;
     --lighter-secondary-background-color: #a8b2d1; 
     --slate: #8892b0;
+    --dark-navy: #020c1b;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
     --color: rgb(214, 197, 197); 
     /* My own tertiary theme color */
     --tertiary-color: #922724;
@@ -34,6 +37,10 @@ img {
 
 /* Universal Active Link Styling */
 a:active {
+    color: var(--color);
+}
+
+a:hover {
     color: var(--color);
 }
 
@@ -243,7 +250,7 @@ a:link {
 /* Body */
 body {
     color: var(--color);
-    background-color: var(--primary-background-color);
+    background-color: var(--dark-navy);
     font-family: 'Poppins', 'Open Sans', sans-serif;
     line-height: 1.4;
     /* To center the content */
@@ -270,19 +277,64 @@ body {
     margin-right: 8%;
 }
 
+.words a {
+    text-decoration: none;
+}
+
 .words ul li {
     list-style:inside;
 }
 
-.software-creations {
+#software-creations {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.5fr);
     gap: 1rem;
+    padding-top: 5%;
+    margin-bottom: 10%;
 }
 
-.software-creations a img{
+#software-creations a img{
     height: 30px;
     width: 30px;
+}
+
+.project {
+    height: 350px;
+    width: 300px;
+    background-color: var(--light-navy);
+    border-radius: 3%;
+}
+
+.project:hover {
+    background-color: var(--lightest-navy);
+}
+
+.project a {
+    margin-left: 87%;
+}
+
+.project h3 {
+    padding-left: 10px;
+}
+
+.project ul li {
+    list-style: none;
+    padding-left: 10px;
+    max-width: 85%;
+    text-align: justify;
+}
+
+.project p {
+    padding-left: 10px;
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#footer a {
+    text-decoration: none;
 }
 
 /* Socials */
