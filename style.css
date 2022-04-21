@@ -27,6 +27,7 @@
 p {
     margin: 5px 0;
     line-height: 1.7;
+    color: var(--lighter-secondary-background-color);
 }
 
 /* Universal Image Styling */
@@ -41,7 +42,7 @@ a:link {
 }
 
 a:hover {
-    color: var(--color);
+    color: var(--lighter-secondary-background-color);
 }
 
 a:active {
@@ -52,9 +53,13 @@ a:visited {
     color: var(--lighter-tertiary-color);
 }
 
+h2 {
+    color: var(--color);
+}
+
 /*===========================================================================================================*/
 /* Nav Container */
-.nav-container {
+.navbar {
     position: fixed;
     z-index: 1;
     top: 60%;
@@ -65,9 +70,30 @@ a:visited {
 }
 
 /* Nav Container Hover Link */
-.nav-container a {
+.navbar a {
     text-decoration: none;
     padding: 3px 3px;
+}
+
+.navbar a:hover {
+    color: var(--color);
+}
+
+.social-links {
+    position: fixed;
+    z-index: 1;
+    top: 85%;
+    left: 90%;
+    display: flex;
+}
+
+.social-links a {
+    margin-right: 3%;
+}
+
+.social-links a img {
+    height: 25px;
+    width: 25px;
 }
 
 /*===========================================================================================================*/
@@ -168,29 +194,10 @@ a:visited {
     overflow: hidden;
 }
 
-.social-links {
-    position: fixed;
-    z-index: 1;
-    top: 85%;
-    left: 90%;
-    /*display: none;*/
-    display: flex;
-}
-
-.social-links a {
-    margin-right: 3%;
-}
-
-.social-links a img {
-    height: 25px;
-    width: 25px;
-}
-
 #welcome {
     max-width: 450px;
     height: 100vh;
     padding-top: 25%;
-    color: var(--lighter-secondary-background-color);
 }
 
 #welcome h1 {
@@ -217,10 +224,12 @@ a:visited {
     height: 75px;
     width: 150px;
     text-decoration: none;
+    color: var(--color);
 }
 
 #welcome a:hover {
     background-color: var(--slate);
+    color: var(--lighter-tertiary-color);
 }
 
 #welcome a img {
@@ -232,9 +241,9 @@ a:visited {
 
 /* Body */
 body {
-    color: var(--color);
+    color: var(--light-navy);
     background-color: var(--dark-navy);
-    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-family: 'Poppins', 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
     line-height: 1.4;
     /* To center the content */
     margin-left: 15%;
@@ -243,7 +252,7 @@ body {
     max-width: 1366px;
 }
 
-.about-me {
+#about-me {
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -251,7 +260,11 @@ body {
     color: var(--lighter-secondary-background-color);
 }
 
-.about-me img {
+#about-me a:hover {
+    color: var(--color);
+}
+
+#about-me img {
     width: 30%;
     border-radius: 3%;
 }
@@ -276,6 +289,7 @@ body {
     gap: 1rem;
     padding-top: 5%;
     margin-bottom: 10%;
+    color: var(--lighter-secondary-background-color)
 }
 
 #software-creations a img{
@@ -316,10 +330,15 @@ body {
 #footer {
     text-align: center;
     margin-bottom: 5%;
+    color: var(--lighter-secondary-background-color);
 }
 
 #footer a {
     text-decoration: none;
+}
+
+#footer a:hover {
+    color: var(--color);
 }
 
 /* Socials */
