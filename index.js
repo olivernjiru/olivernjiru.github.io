@@ -18,10 +18,10 @@ for(let button of buttons) {
       }
       else if (e.target.id == "divide") 
       {
-        /*sound = document.querySelector("#divide-audio");
+        sound = document.querySelector("#divide-audio");
         sound.currenttime = 0;
-        sound.play();*/
-        display.innerText = '/';
+        sound.play();
+        display.innerText += '/';
       }
       else if (e.target.id == "backspace") 
       {
@@ -34,121 +34,121 @@ for(let button of buttons) {
       }
       else if (e.target.id == "multiply") 
       {
-        /*const sound1 = document.querySelector("#mupltiply-audio");
+        const sound1 = document.querySelector("#multiply-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += '*';
       }
       else if (e.target.id == "nine") 
       {
-        /*const sound1 = document.querySelector("#nine-audio");
+        const sound1 = document.querySelector("#nine-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 9;
       }
       else if (e.target.id == "eight") 
       {
-        /*const sound1 = document.querySelector("#eight-audio");
+        const sound1 = document.querySelector("#eight-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 8;
       }
       else if (e.target.id == "seven") 
       {
-        /*const sound1 = document.querySelector("#seven-audio");
+        const sound1 = document.querySelector("#seven-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 7;
       }
       else if (e.target.id == "subtract") 
       {
-        /*const sound1 = document.querySelector("#subtract-audio");
+        const sound1 = document.querySelector("#subtract-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += '-';
       }
       else if (e.target.id == "six") 
       {
-        /*const sound1 = document.querySelector("#six-audio");
+        const sound1 = document.querySelector("#six-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 6;
       }
       else if (e.target.id == "five") 
       {
-        /*const sound1 = document.querySelector("#five-audio");
+        const sound1 = document.querySelector("#five-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 5;
       }
       else if (e.target.id == "four") 
       {
-        /*const sound1 = document.querySelector("#four-audio");
+        const sound1 = document.querySelector("#four-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 4;
       }
       else if (e.target.id == "add") 
       {
-        /*const sound1 = document.querySelector("#add-audio");
+        const sound1 = document.querySelector("#add-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += '+';
       }
       else if (e.target.id == "three") 
       {
-        /*const sound1 = document.querySelector("#three-audio");
+        const sound1 = document.querySelector("#three-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 3;
       }
       else if (e.target.id == "two") 
       {
-        /*const sound1 = document.querySelector("#two-audio");
+        const sound1 = document.querySelector("#two-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 2;
       }
       else if (e.target.id == "one") 
       {
-        /*const sound1 = document.querySelector("#one-audio");
+        const sound1 = document.querySelector("#one-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 1;
       }
       else if (e.target.id == "left-bracket") 
       {
-        /*const sound1 = document.querySelector("#left-audio");
+        const sound1 = document.querySelector("#left-bracket-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += '(';
       }
       else if (e.target.id == "right-bracket") 
       {
-        /*const sound1 = document.querySelector("#right-audio");
+        const sound1 = document.querySelector("#right-bracket-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += '(';
       }
       else if (e.target.id == "zero") 
       {
-        /*const sound1 = document.querySelector("#zero-audio");
+        const sound1 = document.querySelector("#zero-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += 0;
       }
       else if (e.target.id == "period") 
       {
-        /*const sound1 = document.querySelector("#period-audio");
+        const sound1 = document.querySelector("#period-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         display.innerText += '.';
       }
       else if (e.target.id == "equal") 
       {
-        /*const sound1 = document.querySelector("#equal-audio");
+        const sound1 = document.querySelector("#equal-audio");
         sound1.currenttime = 0;
-        sound1.play();*/
+        sound1.play();
         try{
             display.innerText = eval(display.innerText);
         } catch {
