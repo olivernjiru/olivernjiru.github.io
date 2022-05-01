@@ -214,8 +214,17 @@ body {
     background-color: var(--lightest-navy);
 }
 
-.project a {
-    margin-left: 87%;
+.project a img, .image-links{
+    margin-top: 2%;
+}
+
+.project a:first-child {
+    margin-left: 73%;
+    margin-right: 5%;
+}
+
+.image-links {
+    display: flex;
 }
 
 .project h3 {
