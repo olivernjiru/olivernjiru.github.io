@@ -398,10 +398,6 @@ body {
 }
 
 @media(max-width: 450px) {
-    .hamburger {
-        display: inline;
-    }
-
     .social-links {
         flex-direction: column;
         top: 80%;
