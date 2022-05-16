@@ -1,7 +1,7 @@
 # Oliver Njiru
 This is my Portfolio Website. 
 
-<img src="assets/portfolio-landing-page-screenshot/Screenshot(1).jpg">
+![Screenshot (1)](https://user-images.githubusercontent.com/51198797/168662741-02eaa458-cff3-4969-baf7-f5556669b072.jpg)
 <h3>Technologies Used: </h3>
 <p>JavaScript</p>
 
