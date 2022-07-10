@@ -4,19 +4,14 @@
 /* Set color variables in root so that they can be used everywhere else in the css */
 :root {
     --primary-background-color: #0a192f;
-    --lighter-secondary-background-color: #a8b2d1; 
+    --secondary-background-color: #a8b2d1; 
     --slate: #8892b0;
     --light-navy: #112240;
     --lightest-navy: #233554;
     --color: rgb(214, 197, 197); 
-    /* My own tertiary theme color */
     --tertiary-color: #922724;
-    /* My own lighter-tertiary theme color */
     --lighter-tertiary-color: #e02209;
     /*
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
     --navy-shadow: rgba(2,12,27,0.7);
     --slate: #8892b0;
     --light-slate: #a8b2d1;
@@ -38,7 +33,7 @@
 p {
     margin: 5px 0;
     line-height: 1.7;
-    color: var(--lighter-secondary-background-color);
+    color: var(--secondary-background-color);
 }
 
 /* Universal Image Styling */
@@ -53,7 +48,7 @@ a:link {
 }
 
 a:hover {
-    color: var(--lighter-secondary-background-color);
+    color: var(--secondary-background-color);
 }
 
 a:active {
@@ -173,7 +168,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     word-spacing: 7px;
-    color: var(--lighter-secondary-background-color);
+    color: var(--secondary-background-color);
 }
 
 #about-me a:hover {
@@ -206,7 +201,7 @@ body {
     gap: 1rem;
     padding-top: 5%;
     margin-bottom: 10%;
-    color: var(--lighter-secondary-background-color);
+    color: var(--secondary-background-color);
 }
 
 #software-creations a img{
@@ -256,7 +251,7 @@ body {
 #footer {
     text-align: center;
     margin-bottom: 5%;
-    color: var(--lighter-secondary-background-color);
+    color: var(--secondary-background-color);
 }
 
 #footer a {
@@ -283,7 +278,7 @@ body {
     text-align: center;
     align-items: center;
     margin-top: 10%;
-    background-color: var(--lighter-secondary-background-color);
+    background-color: var(--secondary-background-color);
     width: 99%;
 }
 
