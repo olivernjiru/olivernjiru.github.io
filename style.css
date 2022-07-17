@@ -350,7 +350,7 @@ body {
 
     /* Mobile Menu */
     #menu a {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /* Body */
@@ -361,7 +361,7 @@ body {
     }
 
     #welcome p, a {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #welcome a img {
@@ -374,7 +374,7 @@ body {
     }
 
     .words p, ul li{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .project {
@@ -383,7 +383,7 @@ body {
     }
 
     .project ul li, p {
-        font-size: 16px;
+        font-size: 14px;
     } 
 
     /* Socials */
